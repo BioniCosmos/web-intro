@@ -1,6 +1,7 @@
 ---
 theme: seriph
 background: https://images.unsplash.com/photo-1451187580459-43490279c0fa
+transition: slide-left
 ---
 
 # Web
@@ -281,10 +282,10 @@ JavaScript 是万能语言。
 layout: none
 ---
 
-<div class="h-full w-full flex bg-[#e0e0e0] justify-center items-center">
+<div class="absolute inset-0 flex bg-[#e0e0e0] justify-center items-center">
   <div id="outer">
     <div class="transform scale-75 flex flex-col justify-center items-center p-10">
-      <img class="rounded-full w-32 h-32" src="https://cdn.moecm.com/avatar.jpg">
+      <img class="rounded-full w-32 h-32" src="https://github.com/BioniCosmos.png">
       <div class="text-3xl font-bold mt-8 mb-2">Daniel</div>
       <div>Blog: <a href="https://moecm.com/">https://moecm.com</a></div>
       <div>Email: <a href="mailto:daniel@moecm.com">daniel@moecm.com</a></div>
